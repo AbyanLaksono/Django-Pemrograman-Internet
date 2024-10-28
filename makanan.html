@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Makanan</title>
+    <link rel="stylesheet" href="makanan.css">
+    
+{% load static %}
+<link rel="stylesheet" href="{% static 'menuapp/makanan.css' %}">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#pembuka">Makanan Pembuka</a></li>
+            <li><a href="#makanan-utama">Makanan Utama</a></li>
+            <li><a href="#cucimulut">Pencuci Mulut</a></li>
+            <li><a href="#drinks">Minuman</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 style="color: aliceblue;">SELAMAT DATANG DI WAROENK Wuueennaakk</h1>
+    </header>
+    
+    <section id="pembuka">
+        <h2>Makanan Pembuka</h2>
+        <div class="menu-item">
+            <img src="martabak.png" alt="Martabak">
+            <h3>Martabak</h3>
+            <span class="harga">Rp.50.000,00</span>
+        </div>`
+        <div class="menu-item">
+            <img src="sphageti.webp" alt="">
+            <h3>Sphagetti</h3>
+            <span class="harga">Rp.34.999,00</span>
+        </div>
+    </section>
+
+    <section id="makanan-utama">
+        <h2>Makanan Berat</h2>
+        <div class="menu-item">
+            <img src="nasi-padang.webp" alt="Nasi padang">
+            <h3>Nasi Padang</h3>
+            <span class="harga">Rp.99.999,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="ayam-penyet.png" alt="Ayam Penyet">
+            <h3>Ayam Penyet</h3>
+            <span class="harga">Rp.78.999,00</span>
+        </div>
+    </section>
+
+    <section id="cucimulut">
+        <h2>Pencuci Mulut</h2>
+        <div class="menu-item">
+            <img src="salad.png" alt="Salad">
+            <h3>Salad</h3>
+            <span class="harga">Rp.37.999,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="sop-buah.png" alt="sop">
+            <h3>Sop Buah</h3>
+            <span class="harga">Rp.50.000,00</span>
+        </div>
+    </section>
+
+    <section id="drinks">
+        <h2>Minuman</h2>
+        <div class="menu-item">
+            <img src="soda.png" alt="soda">
+            <h3>Coca Cola</h3>
+            <span class="harga">Rp.21.999,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="jus.png" alt="">
+            <h3>Jus Buah</h3>
+            <span class="harga">Rp.19.999,00</span>
+        </div>
+    </section>
+
+    <footer>
+        <p><sub>&copy;2024 - Muhammad Abyan Laksono</sub></p>
+    </footer>
+</body>
+</html>

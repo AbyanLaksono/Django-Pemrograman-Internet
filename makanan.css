@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body nav ul li{
+    text-shadow: 7px 7px 7px rgba(0,0,0,0.63);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-image: url("kuning.jpeg");
+    background-size: cover;
+    
+}
+
+header {
+    text-align: center;
+    padding: 20%;
+    color: #000000;
+    background-image: url(resto.jpg);
+    border: 24px outset #ffffff;
+    background-size: auto;
+    margin-bottom: 2.5%;
+    box-shadow: -24px 34px 43px -7px rgba(0,0,0,0.63);
+-webkit-box-shadow: -24px 34px 43px -7px rgba(0,0,0,0.63);
+-moz-box-shadow: -24px 34px 43px -7px rgba(0,0,0,0.63);
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+section h2{
+    color: aliceblue;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    column-count: 2;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -24px 34px 43px -7px rgba(0,0,0,0.63);
+-webkit-box-shadow: -24px 34px 43px -7px rgba(0,0,0,0.63);
+-moz-box-shadow: -24px 34px 43px -7px rgba(0,0,0,0.63);
+
+border-radius: 61px 61px 61px 61px;
+-webkit-border-radius: 61px 61px 61px 61px;
+-moz-border-radius: 61px 61px 61px 61px;
+border: 10px solid #4b3b3b;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.menu-item img {
+    width: 150px; /* Atur ukuran gambar */
+    height: 150px;
+    object-fit: fill; /* Supaya gambar tidak terdistorsi */
+    margin-right: 15px; /* Jarak antara gambar dan teks */
+}
+
+.menu-item p {
+    margin-bottom: 5px;
+}
+
+.harga {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 90px;
+}
